@@ -36,18 +36,6 @@
   "@graph": [
     {
       "comment": "A Solid server that stores its resources on disk and uses WAC for authorization."
-    },
-    {
-      "@id": "urn:solid-server:default:ServerFactory",
-      "urn:solid-server:default:serverPort": {
-        "@id": "urn:solid-server:default:EnvPort"
-      }
-    },
-    {
-      "@id": "urn:solid-server:default:EnvPort",
-      "@type": "EnvironmentVariable",
-      "variable": "PORT",
-      "default": 3000
     }
   ]
 }
