@@ -33,6 +33,10 @@
     "css:config/util/resource-locker/file.json",
     "css:config/util/variables/default.json"
   ],
+ "http": {
+    "port": 8080,
+    "address": "0.0.0.0"
+  }
   "@graph": [
     {
       "comment": "A Solid server that stores its resources on disk and uses WAC for authorization."
